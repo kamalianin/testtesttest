@@ -13886,7 +13886,7 @@ canvas.app.view.window.ConfirmWindowOld.prototype.clickHandler = function(t) {
 canvas.app.battle.Main = function(t, e) {
     canvas.px.Container.call(this),
         this.model = t,
-        canvas.app.battle.log("frameRate = " + this.model.fps),
+        canvas.app.battle.log("frameRate = " + 160),
         this.hintManager = e,
         canvas.EventManager.addEventListener(canvas.app.battle.Event.HINT_ADD, null, this.handlerHintAdd, this),
         canvas.EventManager.addEventListener(canvas.app.battle.Event.HINT_REMOVE, null, this.handlerHintRemove, this),
